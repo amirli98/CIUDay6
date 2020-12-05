@@ -14,10 +14,10 @@ public class SelectionSort {
                 if(array[j]<=array[minIndex])
                 {
                     minIndex = j;
-                    int temp = array[i];
+                }
+                int temp = array[i];
                     array[i] = array[minIndex];
                     array[minIndex] = temp;
-                }
             }
         }
         System.out.println("Before selection sort : the array is");
